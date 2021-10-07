@@ -1,5 +1,5 @@
 package com.example.migration.controllers;
-
+/*
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -7,14 +7,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
-
 import fr.opensagres.poi.xwpf.converter.pdf.PdfConverter;
 import fr.opensagres.poi.xwpf.converter.pdf.PdfOptions;
+*/
 
 public class DocxToPdfConverter {
-
+/*
 	public void convertToPDFFromFile(String docPath, String pdfPath) throws IOException {
 
 		InputStream doc = new FileInputStream(new File(docPath));
@@ -32,5 +31,5 @@ public class DocxToPdfConverter {
 		PdfConverter.getInstance().convert(document, out, options);
 		return out;
 	}	
-	
+	*/
 }
