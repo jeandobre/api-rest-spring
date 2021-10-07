@@ -1,1 +1,0 @@
-ALTER TABLE usuarios ADD COLUMN fone varchar(60) AFTER nome;
